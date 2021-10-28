@@ -33,7 +33,6 @@ linkGithub.href = urlGithub
 fetch(url)
 .then(resposta => resposta.json())
 .then(data => {
-  username.textContent = data.name
   gitUser.textContent = data.login 
   imgUser.src = data.avatar_url
   bioGithub.textContent = data.bio

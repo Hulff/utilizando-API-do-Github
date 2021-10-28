@@ -27,7 +27,7 @@ body {
 }
 
 .div_login {
-  margin-top: 35%;
+  margin-top: 20%;
   width: 27%;
   display: flex;
   flex-direction: column;
@@ -49,4 +49,26 @@ body {
   padding: 3px 11px;
   border-radius: 18px;
   font-weight: 700;
+}
+.div_cracha_style {
+  margin-top: 20%;
+  width: 271px;
+  height: 487px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ACACAC;
+  box-shadow: 8px 14px 5px rgb(0 0 0 / 41%);
+}
+.user_name {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.img_user {
+  margin-top: 8%;
+  width: 165px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.div_github {
+  display: flex;
 }
