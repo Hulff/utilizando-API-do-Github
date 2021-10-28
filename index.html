@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Teste de Login</title>
+    <link href="./style.css" rel="stylesheet">
+    <meta >
+  </head>
+  <body>
+    <div class="div_login">
+      <input type="text" placeholder="insira seu usuario do Github" class="input_login" id="user_login">
+      <button class="btn_user" onclick="identificarUser()">Login</button>
+    </div>
+    <div class="div_cracha" style="display:none;">
+      <div>
+        <div class="user_name">
+          <p>
+            <span id="username"></span>
+          </p>
+        </div>
+      <div class="div_img_user">
+        <img class="img_user" id="imgUser" alt="Imagem Usuario">
+      </div>
+      <div class="div_github">
+        <a id="linkGithub" target="blank">
+          <img src="./imgs/github.svg" alt="github logo">
+        </a>
+        <p><span id="gitUser"></p>
+      </div>
+      <div class="div_bio_github">
+        <p class="bio_github">
+          <span id="bioGithub"></span>
+        </p>
+      </div>
+      <div class="div_media_links">
+        <ul class="lista_links">
+          <li class="links">
+            <a>
+              <img src="./imgs/facebook.svg">
+            </a>
+          </li>
+          <li class="links">
+            <a>
+              <img src="./imgs/instagram.svg">
+            </a>
+          </li>
+          <li class="links">
+            <a>
+              <img src="./imgs/twitter.svg">
+            </a>
+          </li>
+          <li class="links">
+            <a>
+              <img src="./imgs/youtube.svg">
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
