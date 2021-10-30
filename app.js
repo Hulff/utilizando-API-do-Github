@@ -38,9 +38,21 @@ fetch(url)
   bioGithub.textContent = data.bio
 })
 
-console.log("usuario preenchido")
+atualizarLinks(usuario)
 
+console.log("usuario preenchido")
+ 
 divLogin.style.display = 'none'
 divCracha.style.display = 'initial'
+
+}
+
+
+function atualizarLinks (usuario) {
+
+  link_twitter.href = `https://twitter.com/${usuario}`
+  link_youtube.href = `https://www.youtube.com/c/${usuario}`
+  link_facebook.href = `https://www.facebook.com/${usuario}`
+  link_instagram.href = `https://www.instagram.com/${usuario}/`
 
 }
